@@ -1,0 +1,7 @@
+{
+	"extends": "../../tsconfig.options.json",
+	"compilerOptions": {
+		"moduleResolution": "Bundler",
+		"composite": true
+	}
+}

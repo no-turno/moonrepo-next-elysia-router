@@ -2,7 +2,6 @@
 	"name": "api",
 	"version": "0.1.0",
 	"type": "module",
-	"module": "src/index.ts",
 	"scripts": {
 		"dev": "bun --watch ./src/\\!\\(dev\\)/DEV__eden.ts",
 		"build": "next build",
@@ -13,10 +12,10 @@
 		"@elysiajs/eden": "^1.0.7",
 		"@elysiajs/swagger": "^1.0.3",
 		"@tanstack/react-store": "^0.3.1",
-		"@tanstack/store": "^0.3.1",
-		"elysia": "^1.0.9"
+		"@tanstack/store": "^0.3.1"
 	},
 	"devDependencies": {
+		"elysia": "latest",
 		"@biomejs/biome": "^1.6.3",
 		"@elysiajs/elf": "^0.0.0-exp-20230721.1301",
 		"@types/bun": "latest",

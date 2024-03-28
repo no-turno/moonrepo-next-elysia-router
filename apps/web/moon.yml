@@ -2,6 +2,10 @@ type: application
 language: typescript
 platform: bun
 
+toolchain:
+  bun:
+    version: "latest"
+
 id: "web"
 
 tags:

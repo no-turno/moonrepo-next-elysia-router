@@ -9,3 +9,4 @@ projects:
   api: 'libraries/api'
   web: 'apps/web'
   docs: 'apps/docs'
+  elfx: 'tools/elfx'

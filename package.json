@@ -1,8 +1,9 @@
 {
 	"name": "moonrepo-next-elysia-router",
-	"workspaces": ["apps/*", "libraries/*"],
+	"workspaces": ["apps/*", "libraries/*", "tools/*"],
 	"scripts": {
-		"moon": "$(moon)"
+		"moon": "$(moon)",
+		"clean": "rimraf **/{dist,bin,.next}"
 	},
 	"devDependencies": {
 		"@moonrepo/runtime": "latest",
@@ -10,7 +11,8 @@
 		"@moonrepo/core-macos-arm64": "1.23.1",
 		"@moonrepo/dev": "3.0.0",
 		"@moonrepo/types": "1.16.1",
-		"@types/bun": "latest"
+		"@types/bun": "latest",
+		"rimraf": "latest"
 	},
 	"peerDependencies": {
 		"typescript": "5.4.2"

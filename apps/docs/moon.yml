@@ -4,6 +4,10 @@ platform: bun
 
 id: "docs"
 
+toolchain:
+  bun:
+    version: "latest"
+
 tags:
   - "docs"
 

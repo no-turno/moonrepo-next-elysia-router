@@ -1,0 +1,30 @@
+type: tool
+language: typescript
+platform: bun
+
+id: "elfx"
+
+env:
+  TARGET: "bun"
+  FORMAT: "esm"
+  OUTDIR: "dist"
+
+tags:
+  - "elfx"
+  - "tools"
+
+tasks:
+  compile:
+    inputs: 
+      - 'src/index.ts'
+    command: "bun run build"
+
+  build:
+    inputs: 
+      - 'src/index.ts'
+    outputs: 
+      - 'dist/index.js'
+    command: "bun run compile"
+  
+  prepare:
+    command: "bun run prepack"

@@ -1,4 +1,4 @@
-import Elysia from "elysia";
+import { Elysia } from "elysia";
 import { type BasePath, basePath } from "./config";
 
 export const setup = <T = Elysia<BasePath>>(_router_: Elysia) =>

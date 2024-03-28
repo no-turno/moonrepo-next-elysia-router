@@ -1,7 +1,19 @@
 {
 	"extends": "../../tsconfig.options.json",
 	"compilerOptions": {
-		"moduleResolution": "Bundler"
+		"composite": true,
+		"moduleResolution": "Bundler",
+		"target": "ESNext",
+		"module": "ESNext",
+		"lib": ["ESNext"],
+		"emitBOM": true,
+		"esModuleInterop": true,
+		"moduleDetection": "force"
 	},
-	"include": ["src", "../../types/**/*"]
+	"include": ["src/**/*"],
+	"references": [
+		{
+			"path": "../../libraries/api"
+		}
+	]
 }

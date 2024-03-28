@@ -1,0 +1,31 @@
+{
+	"name": "elfx",
+	"type": "module",
+	"scripts": {
+		"build": "bun run ./scripts/build.bun.sh",
+		"compile": "bun ./scripts/compile.bun.sh",
+		"prepack": "bun run build && bun run compile"
+	},
+	"dependencies": {
+		"@elysiajs/elf": "latest",
+		"citty": "latest",
+		"ramda": "latest",
+		"elysia": "latest",
+		"@swc/core": "latest"
+	},
+	"devDependencies": {
+		"@types/ramda": "latest",
+		"@types/bun": "latest",
+		"@types/node": "latest",
+		"@sinclair/typebox": "latest",
+		"@sinclair/typebox-codegen": "latest"
+	},
+	"exports": {
+		"elfx": {
+			"default": "./src/index.ts"
+		},
+		"cli": {
+			"default": "./bin/elfx"
+		}
+	}
+}

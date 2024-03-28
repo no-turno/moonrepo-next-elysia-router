@@ -6,6 +6,7 @@
 		"skipLibCheck": true,
 		"strict": true,
 		"noEmit": true,
+		"composite": true,
 		"esModuleInterop": true,
 		"module": "esnext",
 		"moduleResolution": "bundler",
@@ -23,5 +24,10 @@
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
+	"references": [
+		{
+			"path": "../../libraries/api"
+		}
+	]
 }
