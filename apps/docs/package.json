@@ -1,0 +1,22 @@
+{
+	"name": "docs",
+	"module": "src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "bun --port=8080 --watch ./src/index.ts"
+	},
+	"dependencies": {
+		"@elysiajs/swagger": "latest",
+		"api": "workspace:*",
+		"elysia": "latest",
+		"consola": "latest",
+		"chalk": "latest",
+		"@elysiajs/eden": "latest"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

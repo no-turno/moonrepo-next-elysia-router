@@ -1,6 +1,6 @@
 {
 	"name": "moonrepo-next-elysia-router",
-	"workspaces": ["apps/*"],
+	"workspaces": ["apps/*", "libraries/*"],
 	"scripts": {
 		"moon": "$(moon)"
 	},

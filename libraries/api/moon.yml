@@ -2,7 +2,7 @@ type: library
 language: typescript
 platform: bun
 
-id: "server"
+id: "api"
 
 tags:
-  - "server"
+  - "api"

@@ -9,6 +9,12 @@ export default function Home() {
 			<Link href={"/api/test"} className="cursor-pointer hover:text-green-300">
 				/api/test
 			</Link>
+			<Link
+				href={"http://localhost:8080"}
+				className="cursor-pointer hover:text-green-300"
+			>
+				/docs
+			</Link>
 		</main>
 	);
 }

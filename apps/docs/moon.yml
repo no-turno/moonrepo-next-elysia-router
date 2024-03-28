@@ -2,11 +2,10 @@ type: application
 language: typescript
 platform: bun
 
-id: "web"
+id: "docs"
 
 tags:
-  - "web"
-  - "nextjs"
+  - "docs"
 
 dependsOn:
   - 'api'

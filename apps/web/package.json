@@ -21,7 +21,7 @@
 		"next": "14.1.4",
 		"react": "^18",
 		"react-dom": "^18",
-		"server": "workspace:*"
+		"api": "workspace:*"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.6.3",

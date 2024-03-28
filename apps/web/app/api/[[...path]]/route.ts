@@ -1,4 +1,4 @@
-import api, { mount } from "server";
+import api, { mount } from "api";
 
 const handler = mount(api);
 
