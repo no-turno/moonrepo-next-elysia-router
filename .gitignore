@@ -40,3 +40,9 @@ next-env.d.ts
 # moon
 .moon/cache
 .moon/docker
+
+
+.bin
+bin
+out
+dist
