@@ -1,0 +1,16 @@
+type: application
+language: typescript
+platform: bun
+
+id: "web"
+
+tags:
+  - "web"
+  - "nextjs"
+
+dependsOn:
+  - 'server'
+
+tasks:
+    dev:
+      command: 'bun run dev'

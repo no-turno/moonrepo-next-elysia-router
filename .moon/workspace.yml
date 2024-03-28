@@ -1,0 +1,10 @@
+# https://moonrepo.dev/docs/config/workspace
+$schema: 'https://moonrepo.dev/schemas/workspace.json'
+
+vcs:
+  provider: github
+  defaultBranch: main
+  
+projects:
+  server: 'apps/server'
+  web: 'apps/web'

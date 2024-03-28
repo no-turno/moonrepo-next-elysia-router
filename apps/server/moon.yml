@@ -1,0 +1,8 @@
+type: library
+language: typescript
+platform: bun
+
+id: "server"
+
+tags:
+  - "server"
